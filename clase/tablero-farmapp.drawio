@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" modified="2026-05-22T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="farmapp-integration" name="FarmApp – Integración de Vistas">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="870" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TÍTULO -->
+        <mxCell id="2" value="FarmApp – Tablero de Integración de Vistas Arquitectónicas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1580" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ROW 1: NEGOCIO ===== -->
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="1580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="VISTA DE NEGOCIO" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;Proceso de Compra Online&lt;/b&gt;&lt;br&gt;Pedido por app/web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;Proceso de Prescripción Médica&lt;/b&gt;&lt;br&gt;Validación en tienda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;Proceso de Despacho / Entrega&lt;/b&gt;&lt;br&gt;Logística y rastreo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ROW 2: INFORMACIÓN ===== -->
+        <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="1580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="VISTA DE INFORMACIÓN" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;Entidad: Producto&lt;/b&gt;&lt;br&gt;SKU, nombre, stock, precio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;Entidad: Cliente&lt;/b&gt;&lt;br&gt;Perfil, historial, preferencias" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;Entidad: Pedido&lt;/b&gt;&lt;br&gt;Estado, items, dirección, pago" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;Entidad: Descuento&lt;/b&gt;&lt;br&gt;Promociones, cupones, reglas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ROW 3: APLICACIONES ===== -->
+        <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="1580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="VISTA DE APLICACIONES" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;App Móvil&lt;/b&gt;&lt;br&gt;iOS / Android" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;Plataforma E-Commerce&lt;/b&gt;&lt;br&gt;Web + catálogo + pagos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;Sistema POS&lt;/b&gt;&lt;br&gt;Punto de venta en tienda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="700" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;CRM&lt;/b&gt;&lt;br&gt;Gestión de clientes y despacho" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="950" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ROW 4: INFRAESTRUCTURA ===== -->
+        <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="510" width="1580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="VISTA DE INFRAESTRUCTURA" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="510" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;Servidores Regionales&lt;/b&gt;&lt;br&gt;On-premise por zona" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="530" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;b&gt;Nube Híbrida (AWS/Azure)&lt;/b&gt;&lt;br&gt;Apps web + APIs + CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;b&gt;Base de Datos Replicada&lt;/b&gt;&lt;br&gt;Replica multi-región, HA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="780" y="530" width="230" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ROW 5: SEGURIDAD ===== -->
+        <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="1580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="VISTA DE SEGURIDAD" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="&lt;b&gt;Control de Acceso por Rol&lt;/b&gt;&lt;br&gt;RBAC en todas las apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="&lt;b&gt;Cifrado de Datos Personales&lt;/b&gt;&lt;br&gt;TLS + AES-256 en reposo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="&lt;b&gt;Monitoreo de Fraude&lt;/b&gt;&lt;br&gt;Reglas + ML + alertas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="780" y="680" width="230" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== EDGES DE TRAZABILIDAD ===== -->
+
+        <!-- Negocio → Aplicaciones (soporta) -->
+        <mxCell id="30" value="soporta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#d6b656;fontColor=#d6b656;fontSize=10;" edge="1" source="13" target="20" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="soporta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#d6b656;fontColor=#d6b656;fontSize=10;" edge="1" source="13" target="21" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="soporta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#d6b656;fontColor=#d6b656;fontSize=10;" edge="1" source="14" target="22" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="soporta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#d6b656;fontColor=#d6b656;fontSize=10;" edge="1" source="15" target="23" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Aplicaciones → Información (accede) -->
+        <mxCell id="34" value="accede" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="20" target="18" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="accede" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="21" target="16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="consulta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="21" target="19" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Aplicaciones → Infraestructura (desplegado en) -->
+        <mxCell id="37" value="desplegado en" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="20" target="25" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="desplegado en" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="22" target="24" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="almacena en" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontColor=#82b366;fontSize=10;" edge="1" source="21" target="26" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Seguridad → capas (controla / protege) - dashed -->
+        <mxCell id="40" value="controla" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#b85450;fontColor=#b85450;fontSize=10;dashed=1;" edge="1" source="27" target="20" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="protege" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#b85450;fontColor=#b85450;fontSize=10;dashed=1;" edge="1" source="28" target="26" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="monitorea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#b85450;fontColor=#b85450;fontSize=10;dashed=1;" edge="1" source="29" target="21" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
